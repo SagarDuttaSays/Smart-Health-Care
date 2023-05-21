@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    /* Add custom styles here */
+    .profile-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .user-info {
+      max-width: 400px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .user-info h4 {
+      margin-bottom: 20px;
+    }
+
+    .user-info p {
+      margin-bottom: 10px;
+    }
+
+    .profile-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .profile-buttons a {
+      margin-right: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">&nbsp;&nbsp;Smart Health Care</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Post Doctor</a></li>
+        <li><a href="#">Post Treatment</a></li>
+        <li><a href="#">View Customers</a></li>
+        <li><a href="#">View Payments</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="container profile-container">
+    <div class="user-info">
+      <h4>ADMIN</h4>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> johndoe@example.com</p>
+      <p><strong>Phone:</strong> +1 123 456 7890</p>
+
+      <div class="profile-buttons">
+        <a href="login.html" class="waves-effect waves-light btn">Edit</a>&nbsp;&nbsp;
+        <a href="#" class="waves-effect waves-light btn">Password</a>&nbsp;&nbsp;
+        <a href="#" class="waves-effect waves-light btn">Logout</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
