@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Profile Information</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    /* Custom styles */
+    body {
+      margin: 0;
+      padding-top: 0;
+    }
+    .container {
+      margin: 20px auto;
+    }
+    .navbar {
+      background-color: #1976d2;
+      padding: 10px;
+    }
+    .navbar-brand {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#" class="brand-logo">&nbsp;&nbsp;Smart Health Care</a>
+  </nav>
+
+  <!-- Update Profile Information Form -->
+  <div class="container">
+    <h4>Update Profile Information</h4><br/>
+    <form>
+      <div class="input-field">
+        <input type="text" id="name" placeholder="Name">
+        <label for="name">Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="age" placeholder="Age">
+        <label for="age">Age</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="gender" placeholder="Gender">
+        <label for="gender">Gender</label>
+      </div>
+      <div class="input-field">
+        <input type="tel" id="phone" placeholder="Phone Number">
+        <label for="phone">Phone Number</label>
+      </div>
+      <div class="input-field">
+        <input type="email" id="email" placeholder="Email ID">
+        <label for="email">Email ID</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="dob" placeholder="Date of Birth">
+        <label for="dob">Date of Birth</label>
+      </div>
+      <div class="input-field">
+        <textarea id="address" class="materialize-textarea" placeholder="Address"></textarea>
+        <label for="address">Address</label>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit">Update</button>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

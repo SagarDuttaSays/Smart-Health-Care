@@ -1,0 +1,17 @@
+{
+  "name": "smart-health-care",
+  "version": "1.0.0",
+  "description": "An application providing anytime medical advice and consultations, along with access to prescribed medications, enables patients to conveniently receive treatment. It caters to those requiring immediate medical assistance, saving time and offering remote consultations.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sagar Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
